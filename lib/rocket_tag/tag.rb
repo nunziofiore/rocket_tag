@@ -35,6 +35,9 @@ module RocketTag
     def tags_count
       self[:tags_count].to_i
     end
+    
+    def rocket_tag_tag_path
+    end
 
   end
 end
